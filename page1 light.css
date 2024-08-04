@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(lightabstract.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.btn1{
+    font-size: 26px;
+    width: 400px;
+    margin-right: 10%;
+    height: 140px;
+    border-radius: 50px;
+    background: transparent;
+    color: rgb(90, 90, 90);
+    text-shadow:
+    0 0 3px rgb(231, 231, 231),
+    0 0 5px rgb(255, 255, 255);
+    border: solid 1px rgb(224, 224, 224);
+    box-shadow: 
+    0 0 10px white,
+    inset 20px 20px 10px white,
+    0 0 15px white;
+    cursor: pointer;
+    transition: all .9s;
+}
+.btn1:hover{
+    box-shadow: 
+    0 0 10px white,
+    inset -20px -20px 10px white,
+    0 0 15px white;    
+    transform: scale(1.1);
+}
+.btn1:active{
+    box-shadow: 
+    0 0 10px white,
+    inset -20px -20px 10px white,
+    0 0 15px white;    
+    transform: scale(1.3);
+}
+.btn2{
+    font-size: 26px;
+    width: 400px;
+    margin-left: 5%;
+    height: 140px;
+    border-radius: 50px;
+    background: transparent;
+    color: rgb(90, 90, 90);
+    text-shadow:
+    0 0 3px rgb(231, 231, 231),
+    0 0 5px rgb(255, 255, 255);
+    border: solid 1px rgb(224, 224, 224);
+    box-shadow: 
+    0 0 10px white,
+    inset 20px 20px 10px white,
+    0 0 15px white;
+    cursor: pointer;
+    transition: all .9s;
+}
+.btn2:hover{
+    box-shadow: 
+    0 0 10px white,
+    inset -20px -20px 10px white,
+    0 0 15px white;    
+    transform: scale(1.1);
+}
+.btn2:active{
+    box-shadow: 
+    0 0 10px white,
+    inset -20px -20px 10px white,
+    0 0 15px white;    
+    transform: scale(1.3);
+}
+.light{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: .2px solid #ffcc89 ;
+    background: linear-gradient(180deg, #ffcc89,#d8860b);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    box-shadow: 
+    0 0 5px #f0d8ba,
+    inset 0 0 10px #ecd5b7,
+    0 0 20px #ffcc89,
+    inset 0 0 40px #ffcc89,
+    0 0 80px #ffcc89,
+    0 0 160px #ffcc89,
+    inset 0 0 80px #ecd5b7,
+    0 0 100px #ffcc89,
+    inset 0 0 40px #ffcc89;
+    animation:anim infinite 10s ;
+}
+@keyframes anim{
+    0%{
+        transform: scale(85%);
+    }
+    50%{
+        transform: scale(100%);
+    }
+    100%{
+        transform: scale(85%);
+    }
+}
