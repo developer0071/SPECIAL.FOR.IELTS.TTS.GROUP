@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    transition:all .5s;
 }
 button:hover{
     box-shadow: 
