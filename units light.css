@@ -59,7 +59,7 @@ button:active{
     font-size: 40px;
     border-radius: 50px;
     background: transparent;
-    color:grey;
+    color:gray;
     text-shadow:
     0 0 3px rgb(39, 0, 0),
     0 0 5px rgb(255, 255, 255);
