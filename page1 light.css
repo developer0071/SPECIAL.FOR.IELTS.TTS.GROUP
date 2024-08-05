@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body{
     background: url(lightabstract.png);
@@ -13,6 +14,12 @@ body{
     justify-content: center;
     align-items: center;
     height: 90vh;
+    transition:all .5s;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn1{
     font-size: 26px;
