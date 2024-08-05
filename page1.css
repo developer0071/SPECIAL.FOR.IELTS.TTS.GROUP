@@ -4,6 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 body{
     background: url(dark-abstract-black-minimal-4k-q0-2880x1800.jpg);
     background-position: center;
